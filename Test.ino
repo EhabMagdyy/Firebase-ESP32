@@ -1,19 +1,3 @@
-/**
- * Created by K. Suwatchai (Mobizt)
- *
- * Email: k_suwatchai@hotmail.com
- *
- * Github: https://github.com/mobizt/Firebase-ESP-Client
- *
- * Copyright (c) 2023 mobizt
- *
- */
-
-// This example shows how to download file from Firebase Storage bucket.
-
-// If SD Card used for storage, assign SD card type and FS used in src/FirebaseFS.h and
-// change the config for that card interfaces in src/addons/SDHelper.h
-
 #include <LittleFS.h>
 #include <Arduino.h>
 #if defined(ESP32) || defined(ARDUINO_RASPBERRY_PI_PICO_W)
@@ -64,7 +48,6 @@ WiFiMulti multi;
 
 void setup()
 {
-
     Serial.begin(115200);
 
 #if defined(ARDUINO_RASPBERRY_PI_PICO_W)
