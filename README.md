@@ -1,3 +1,2 @@
 # Video link: https://youtu.be/MsZfV0x_G8k
-
-![7](https://github.com/EhabMagdyy/Firebase-ESP32/assets/132620660/d693b721-5901-425b-9675-84430df00bc8)
+![ESP32 - Azure IoT (1)](https://github.com/user-attachments/assets/94e4893a-f586-43f3-ab01-d1e15a543c6f)
