@@ -10,22 +10,21 @@
 #include <addons/SDHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "2001"                    /* Your Wifi SSID */
-#define WIFI_PASSWORD "19821968"            /* Your Wifi Password */
+#define WIFI_SSID "WIFI_SSID"                    /* Your Wifi SSID */
+#define WIFI_PASSWORD "WIFI_PASSWORD"            /* Your Wifi Password */
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyBIKU1XmpKhb2xiYK6cLTxijSSahaqRNiU"
+#define API_KEY "API_KEY"
 
 /* 3. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "ehab4zu@gmail.com"      /* your gmail */
-#define USER_PASSWORD "123456"              /* your password */
+#define USER_EMAIL "USER_EMAIL"      /* your gmail */
+#define USER_PASSWORD "USER_PASSWORD"              /* your password */
 
 /* 4. Define the Firebase storage bucket ID e.g bucket-name.appspot.com */
-#define STORAGE_BUCKET_ID "tutorial-c161d.appspot.com"
+#define STORAGE_BUCKET_ID "STORAGE_BUCKET_ID"
 
 // Define Firebase Data object
 FirebaseData fbdo;
-
 FirebaseAuth auth;
 FirebaseConfig config;
 
